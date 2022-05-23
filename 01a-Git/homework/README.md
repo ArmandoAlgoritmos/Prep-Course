@@ -33,7 +33,7 @@ Dentro de nuestra terminal podemos: revisar nuestra estructura de archivos, aña
 
 "Touch" creará un nuevo archivo.
 ```bash
-  $ touch [nombre del archivo]
+  $ touch [nombre del archivo]  
 ```
 
 "Remove": Elimina permanentemente un archivo. ¡CUIDADO! Esto traspasa cualquier "papelera de reciclaje" que exista en el sistema y elimina los archivos PERMANENTEMENTE. Como nota, esto no eliminará carpetas, necesitamos un comando especial para eso que aprenderemos más adelante.
@@ -107,7 +107,7 @@ A continuación, escribe lo siguiente en tu terminal:
   $ cd repositorio-henry
   
   $ touch archivo-ejemplo.js
-```
+```cd
 
 Esto añadirá un nuevo archivo llamado "archivo-ejemplo.js" a tu proyecto.
 
@@ -139,7 +139,7 @@ Esto nos dice que tenemos un archivo que ha cambiado, pero todavía no ha sido g
 Para hacer esto, usaremos el comando "add":
 
 
-```bash
+```bash 
   git add archivo-ejemplo.js
 ```
 
